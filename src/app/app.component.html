@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Monster/adress</title>
+</head>
+<body>
+  <h1>Monster/adress</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">home</a></li>
+      <li><a routerLink="/inscrire" routerLinkActive="active" ariaCurrentWhenActive="page">S'incrire</a></li>
+      <li><a routerLink="/connexion" routerLinkActive="active" ariaCurrentWhenActive="page">Se connecter</a></li>
+      <li><a routerLink="/profil" routerLinkActive="active" ariaCurrentWhenActive="page">profil</a></li>
+      <!--<li *ngIf="">
+        <button class="card-button" (click)="friend( monsters.id )">
+            <i class="fa-solid fa-heart" style="color:black " ></i>
+        </button>  
+      </li>-->
+      <li> Username = {{UserName}}</li>
+    </ul>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+</body>
+</html>
+
